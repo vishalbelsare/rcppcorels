@@ -1,12 +1,19 @@
 Package: corels
 Type: Package
 Title: R Binding for the 'Certifiably Optimal RulE ListS (Corels)' Learner
-Version: 0.0.4
-Date: 2022-02-04
-Author: Dirk Eddelbuettel
-Maintainer: Dirk Eddelbuettel <edd@debian.org>
+Version: 0.0.6
+Date: 2026-08-28
+Authors@R: c(person("Dirk", "Eddelbuettel", role = c("aut", "cre"), email = "edd@debian.org",
+                    comment = c(ORCID = "0000-0001-6419-907X")),
+             person("Nicholas", "Larus-Stone", role = "aut", comment = "Corels C++ Library and paper"),
+             person("Elaine", "Angelino", role = "aut", comment = "Corels C++ Library and paper"),
+             person("Daniel", "Alabi", role = "ctb", comment = "Corels Paper"),
+             person("Cynthia", "Rudin", role = "ctb",
+                    comment = c(ORCID = "0000-0003-4283-2780", "Corels Paper")),
+             person("Margo", "Seltzer", role = "ctb",
+                    comment = c(ORCID = "0000-0002-2165-4658", "Corels Paper")))
 Description: The 'Certifiably Optimal RulE ListS (Corels)' learner by
- Angelino et al described in <arXiv:1704.01701> provides interpretable decision
+ Angelino et al described in <doi:10.48550/arXiv.1704.01701> provides interpretable decision
  rules with an optimality guarantee, and is made available to R with this package.
  See the file 'AUTHORS' for a list of copyright holders and contributors.
 License: GPL (>= 2)

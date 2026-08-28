@@ -2,10 +2,11 @@
 # corels: R interface to 'Certifiably Optimal RulE ListS' (Corels)
 
 [![CI](https://github.com/corels/rcppcorels/actions/workflows/ci.yaml/badge.svg)](https://github.com/corels/rcppcorels/actions/workflows/ci.yaml)
-[![License](https://eddelbuettel.github.io/badges/GPL2+.svg)](http://www.gnu.org/licenses/gpl-2.0.html)
-[![CRAN](http://www.r-pkg.org/badges/version/corels)](https://cran.r-project.org/package=corels)
+[![License](https://eddelbuettel.github.io/badges/GPL2+.svg)](https://www.r-project.org/Licenses/GPL-2)
+[![CRAN](https://www.r-pkg.org/badges/version/corels)](https://cran.r-project.org/package=corels)
 [![Dependencies](https://tinyverse.netlify.app/badge/corels)](https://cran.r-project.org/package=corels)
-[![Downloads](http://cranlogs.r-pkg.org/badges/corels?color=brightgreen)](https://www.r-pkg.org:443/pkg/corels)
+[![r-universe](https://corels.r-universe.dev/badges/corels)](https://corels.r-universe.dev/corels)
+[![Downloads](https://cranlogs.r-pkg.org/badges/corels?color=brightgreen)](https://www.r-pkg.org:443/pkg/corels)
 
 ## What is it?
 
@@ -18,11 +19,11 @@ approach produces  optimal rule lists  on practical problems in  seconds, and
 offers a novel alternative to CART and other decision tree methods.
 
 See the [C++ implementation](https://github.com/corels/corels), the
-[live website](https://corels.eecs.harvard.edu/), the [Python
+[live website](https://corels.cs.ubc.ca/corels), the [Python
 implementation](https://github.com/corels/pycorels), the [arXiv
 paper](https://arxiv.org/abs/1704.01701), the [JMLR
 paper](https://www.jmlr.org/papers/volume18/17-716/17-716.pdf), the [senior
-thesis](https://dash.harvard.edu/handle/1/38811502) or the [KDD 2017
+thesis](https://corels.cs.ubc.ca/corels/Larus-Stone_thesis.pdf) or the [KDD 2017
 paper](https://www.kdd.org/kdd2017/papers/view/learning-certifiably-optimal-rule-lists-for-categorical-data)
 for more.
 
@@ -77,7 +78,7 @@ Cynthia Rudin wrote the paper.
 
 Corels uses the rulelib library by Yang _et al_ described in the [2016 arXiv paper
 by Hongyu Yang, Cynthia Rudin, and Margo Seltzer](https://arxiv.org/abs/1602.08610) with
-[this code repo](https://github.com/Hongyuy/sbrlmod) and in the [2015 arXiv
+[this code repo](https://github.com/Hongyuy/sbrl) and in the [2015 arXiv
 paper by Benjamin Letham, Cynthia Rudin, Tyler H. McCormick and David
 Madigan](https://arxiv.org/abs/1511.01644) now published in _Annals of Statistics_.
 
